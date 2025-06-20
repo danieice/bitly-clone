@@ -1,0 +1,329 @@
+body {
+  font-family: "Bitly Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  background-color: #031f39;
+}
+
+/* header */
+header{
+    width: 100%;
+    /* height: 15vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+/* top-header */
+.top-header{
+    height: 35px;
+    width: 100%;
+    border: 0px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12.5px;
+    background-color: #cedafa;
+    color: #0b1736;
+    font-weight: 2000;
+    position: relative;
+}
+
+.top-header p{
+display: inline-block;
+background-color: #0b1736;
+color: #fffdf8;
+padding: 2px;
+border-radius: 5px;
+}
+.top-header a{
+    color: #0b1736;
+}
+.top-header i{
+    text-decoration: underline;
+}
+
+/* bottom-header */
+.bottom-header{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    position: static;
+    background-color: #fefefe;
+    border-bottom: 1.2px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.bh-div1{
+    display:flex;
+    justify-content: start ;
+    align-items: center;
+    width: 100%;
+    gap:18px;
+    flex:1.3;
+    border: 0px solid;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.bh-div1 ul{
+      display: flex;
+      list-style-type: none;
+      /* justify-content: start;
+      align-items: start; */
+      padding-left: 48px;
+      margin: 0;
+      gap: 15px;
+}
+
+.bh-div1 ul li{
+    /* padding-right: 13px; */
+    padding: 0px !important;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer; 
+}
+.bitly-logo{
+    border: 0px solid;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* bh-div2 */
+.bh-div2{
+    margin-top: 0;
+    border: 0px solid;
+    flex: 1;
+    width: 100%;
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
+
+.bh-div2 ul{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style-type: none;
+}
+
+.bh-div2 ul li{
+    margin-right:15px;
+    font-weight:bolder;
+    font-size: 15px;
+}
+
+.bh-div2 ul li:last-child button{
+    font-family: "Bitly Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: 1.6px solid #0058dd;
+    background-color: #0056d2;
+    color: #fffdf8;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.bh-div2 ul li:nth-child(3) button{
+    font-family: "Bitly Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: 1.6px solid #0056d2;
+    background-color: transparent;
+    color: #0056d2;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.build{
+    display: grid;
+    grid-template-rows: 1fr;
+    border: 0px solid #fff;
+    margin-top: 160px;
+    color: #FFFDF8;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.build-paragraph h2{
+    line-height: 10%;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.build-paragraph p{
+    font-size: 18px;
+    line-height: 160%;
+    margin: 0;
+}
+
+/* qr code and link */
+.qr-and-link{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFDF8;
+    margin-top: 30px;
+}
+
+.icon-link{
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 8px;
+    background-color: #FFFDF8;
+    color: #031f39;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.qr-code{
+    border: 0px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.qr-code:hover{
+    transition: ease-in-out 0.5s;
+    background-color: #fefefe33;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
